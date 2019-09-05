@@ -1,6 +1,6 @@
 {
-  "name": "jose-algorithms",
-  "version": "0.0.3",
+  "name": "@egendata/jose-algorithms",
+  "version": "0.1.0",
   "description": "A collection of JOSE-compatible algorithms",
   "main": "index.js",
   "module": "index.mjs",
@@ -8,7 +8,7 @@
     "JOSE",
     "algorithms"
   ],
-  "repository": "https://github.com/kevlened/jose/tree/master/packages/jose-algorithms",
+  "repository": "https://github.com/egendata/jose/tree/roll-our-own/packages/jose-algorithms",
   "author": "kevlened",
   "license": "MIT"
 }
