@@ -1,6 +1,6 @@
 import crypto from 'isomorphic-webcrypto'
-import * as algos from 'jose-algorithms'
-import { importKey } from 'jwk-lite'
+import * as algos from '@egendata/jose-algorithms'
+import { importKey } from '@egendata/jwk-lite'
 import { toBase64Url, fromBase64Url, toBinaryString, fromBinaryString } from 'b64u-lite'
 import { toUint8Array, fromBuffer } from 'str2buf'
 

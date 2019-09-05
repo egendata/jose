@@ -2,12 +2,12 @@
 
 ## Install
 
-`npm install jws-lite`
+`npm install @egendata/jws-lite`
 
 ## Usage
 
 ```javascript
-const jws = require('jws-lite')
+const jws = require('@egendata/jws-lite')
 
 const decoded = jws.decode('someJWS');
 const {
@@ -29,7 +29,7 @@ jws.verify(jwsToken, jwk)
 If you use ES6 imports with a bundler that supports tree-shaking, yes!
 
 ```javascript
-import { sign } from 'jws-lite'
+import { sign } from '@egendata/jws-lite'
 ```
 
 ## License
