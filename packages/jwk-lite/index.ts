@@ -1,5 +1,5 @@
 import crypto from 'isomorphic-webcrypto'
-import * as algos from 'jose-algorithms'
+import * as algos from '@egendata/jose-algorithms'
 
 /**
  * Generate a jwk or key pair

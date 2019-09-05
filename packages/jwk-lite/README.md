@@ -2,12 +2,12 @@
 
 ## Install
 
-`npm install jwk-lite`
+`npm install @egendata/jwk-lite`
 
 ## Usage
 
 ```javascript
-const jwk = require('jwk-lite')
+const jwk = require('@egendata/jwk-lite')
 
 jwk.generateKey('HS256')
 .then(keys => {

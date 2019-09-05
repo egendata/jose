@@ -1,5 +1,5 @@
 const jwk = require('../')
-const algorithms = require('jose-algorithms')
+const algorithms = require('@egendata/jose-algorithms')
 
 let env;
 if (typeof global !== 'undefined' && global.isReactNativeSim) {
