@@ -18,8 +18,8 @@
     "release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "files": [
-    "dist/jwk-lite.js",
-    "dist/jwk-lite.mjs",
+    "dist/@egendata/jwk-lite.js",
+    "dist/@egendata/jwk-lite.mjs",
     "typescript/index.d.ts"
   ],
   "keywords": [
