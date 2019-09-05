@@ -2,12 +2,12 @@
 
 ## Install
 
-`npm install jwt-lite`
+`npm install @egendata/jwt-lite`
 
 ## Usage
 
 ```javascript
-const jwt = require('jwt-lite')
+const jwt = require('@egendata/jwt-lite')
 
 const decoded = jwt.decode('somejwt');
 const {
@@ -29,7 +29,7 @@ jwt.verify(jwtToken, jwk)
 If you use ES6 imports with a bundler that supports tree-shaking, yes!
 
 ```javascript
-import { sign } from 'jwt-lite'
+import { sign } from '@egendata/jwt-lite'
 ```
 
 ## License

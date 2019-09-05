@@ -1,10 +1,10 @@
 {
-  "name": "jwt-lite",
+  "name": "@egendata/jwt-lite",
   "amdName": "jwtLite",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "isomorphic library to decode, sign, and verify JSON Web Tokens",
-  "main": "dist/jwt-lite.js",
-  "module": "dist/jwt-lite.mjs",
+  "main": "dist/@egendata/jwt-lite.js",
+  "module": "dist/@egendata/jwt-lite.mjs",
   "types": "typescript/index.d.ts",
   "scripts": {
     "pretest": "npm run build",
@@ -18,16 +18,16 @@
     "release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "files": [
-    "dist/jwt-lite.js",
-    "dist/jwt-lite.mjs",
+    "dist/@egendata/jwt-lite.js",
+    "dist/@egendata/jwt-lite.mjs",
     "typescript/index.d.ts"
   ],
-  "repository": "https://github.com/kevlened/jose/tree/master/packages/jwt-lite",
+  "repository": "https://github.com/kevlened/egendata/tree/roll-our-own/packages/jwt-lite",
   "author": "kevlened",
   "license": "MIT",
   "dependencies": {
     "isomorphic-webcrypto": "^1.6.1",
-    "jws-lite": "file:../jws-lite"
+    "@egendata/jws-lite": "^0.2.1"
   },
   "devDependencies": {
     "jasmine": "^3.4.0",

@@ -2,7 +2,7 @@ import {
   decode as jwsDecode,
   sign as jwsSign,
   verify as jwsVerify
-} from 'jws-lite'
+} from '@egendata/jws-lite'
 
 /**
  * Decode a token
