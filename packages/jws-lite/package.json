@@ -1,10 +1,10 @@
 {
   "name": "@egendata/jws-lite",
   "amdName": "jwsLite",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "isomorphic library to decode, sign, and verify JSON Web Signatures",
-  "main": "dist/jws-lite.js",
-  "module": "dist/jws-lite.mjs",
+  "main": "dist/@egendata/jws-lite.js",
+  "module": "dist/@egendata/jws-lite.mjs",
   "types": "typescript/index.d.ts",
   "scripts": {
     "pretest": "npm run build",
@@ -18,8 +18,8 @@
     "release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "files": [
-    "dist/jws-lite.js",
-    "dist/jws-lite.mjs",
+    "dist/@egendata/jws-lite.js",
+    "dist/@egendata/jws-lite.mjs",
     "typescript/index.d.ts"
   ],
   "repository": "https://github.com/egendata/jose/tree/roll-our-own/packages/jws-lite",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "@egendata/jose-algorithms": "^0.1.0",
-    "@egendata/jwk-lite": "^0.2.0",
+    "@egendata/jwk-lite": "^0.2.2",
     "b64u-lite": "^1.0.1",
     "isomorphic-webcrypto": "^1.1.3",
     "str2buf": "^1.2.0"
