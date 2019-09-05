@@ -1,7 +1,7 @@
 {
-  "name": "jws-lite",
+  "name": "@egendata/jws-lite",
   "amdName": "jwsLite",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "isomorphic library to decode, sign, and verify JSON Web Signatures",
   "main": "dist/jws-lite.js",
   "module": "dist/jws-lite.mjs",
