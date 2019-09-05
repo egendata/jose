@@ -22,7 +22,7 @@
     "dist/jws-lite.mjs",
     "typescript/index.d.ts"
   ],
-  "repository": "https://github.com/kevlened/jose/tree/master/packages/jws-lite",
+  "repository": "https://github.com/egendata/jose/tree/roll-our-own/packages/jws-lite",
   "author": "kevlened",
   "license": "MIT",
   "dependencies": {
