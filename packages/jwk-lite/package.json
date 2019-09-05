@@ -1,10 +1,10 @@
 {
   "name": "@egendata/jwk-lite",
   "amdName": "jwkLite",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "isomorphic library to generate, import, and export JSON Web Keys",
-  "main": "dist/jwk-lite.js",
-  "module": "dist/jwk-lite.mjs",
+  "main": "dist/@egendata/jwk-lite.js",
+  "module": "dist/@egendata/jwk-lite.mjs",
   "types": "typescript/index.d.ts",
   "scripts": {
     "pretest": "npm run build",
